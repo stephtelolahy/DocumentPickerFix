@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADA7D21A1F6A7AFC00FF22E2"
-               BuildableName = "SampleImport.app"
-               BlueprintName = "SampleImport"
-               ReferencedContainer = "container:SampleImport.xcodeproj">
+               BuildableName = "DocumentPickeriOS11.app"
+               BlueprintName = "DocumentPickeriOS11"
+               ReferencedContainer = "container:DocumentPickeriOS11.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA7D21A1F6A7AFC00FF22E2"
-            BuildableName = "SampleImport.app"
-            BlueprintName = "SampleImport"
-            ReferencedContainer = "container:SampleImport.xcodeproj">
+            BuildableName = "DocumentPickeriOS11.app"
+            BlueprintName = "DocumentPickeriOS11"
+            ReferencedContainer = "container:DocumentPickeriOS11.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA7D21A1F6A7AFC00FF22E2"
-            BuildableName = "SampleImport.app"
-            BlueprintName = "SampleImport"
-            ReferencedContainer = "container:SampleImport.xcodeproj">
+            BuildableName = "DocumentPickeriOS11.app"
+            BlueprintName = "DocumentPickeriOS11"
+            ReferencedContainer = "container:DocumentPickeriOS11.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ADA7D21A1F6A7AFC00FF22E2"
-            BuildableName = "SampleImport.app"
-            BlueprintName = "SampleImport"
-            ReferencedContainer = "container:SampleImport.xcodeproj">
+            BuildableName = "DocumentPickeriOS11.app"
+            BlueprintName = "DocumentPickeriOS11"
+            ReferencedContainer = "container:DocumentPickeriOS11.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

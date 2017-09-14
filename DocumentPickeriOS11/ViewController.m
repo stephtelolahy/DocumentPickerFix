@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  SampleImport
+//  DocumentPickeriOS11
 //
 //  Created by Stéphano TELOLAHY on 14/09/2017.
 //  Copyright © 2017 Stéphano TELOLAHY. All rights reserved.

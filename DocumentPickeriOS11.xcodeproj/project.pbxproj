@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADA7D21B1F6A7AFC00FF22E2 /* SampleImport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleImport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA7D21B1F6A7AFC00FF22E2 /* DocumentPickeriOS11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentPickeriOS11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA7D21E1F6A7AFC00FF22E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADA7D21F1F6A7AFC00FF22E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ADA7D2211F6A7AFC00FF22E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -26,7 +26,7 @@
 		ADA7D22A1F6A7AFC00FF22E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA7D22C1F6A7AFC00FF22E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA7D22D1F6A7AFC00FF22E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADA7D2341F6A7BA900FF22E2 /* SampleImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleImport.entitlements; sourceTree = "<group>"; };
+		ADA7D2341F6A7BA900FF22E2 /* DocumentPickeriOS11.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocumentPickeriOS11.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		ADA7D2121F6A7AFC00FF22E2 = {
 			isa = PBXGroup;
 			children = (
-				ADA7D21D1F6A7AFC00FF22E2 /* SampleImport */,
+				ADA7D21D1F6A7AFC00FF22E2 /* DocumentPickeriOS11 */,
 				ADA7D21C1F6A7AFC00FF22E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,15 +51,15 @@
 		ADA7D21C1F6A7AFC00FF22E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADA7D21B1F6A7AFC00FF22E2 /* SampleImport.app */,
+				ADA7D21B1F6A7AFC00FF22E2 /* DocumentPickeriOS11.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADA7D21D1F6A7AFC00FF22E2 /* SampleImport */ = {
+		ADA7D21D1F6A7AFC00FF22E2 /* DocumentPickeriOS11 */ = {
 			isa = PBXGroup;
 			children = (
-				ADA7D2341F6A7BA900FF22E2 /* SampleImport.entitlements */,
+				ADA7D2341F6A7BA900FF22E2 /* DocumentPickeriOS11.entitlements */,
 				ADA7D21E1F6A7AFC00FF22E2 /* AppDelegate.h */,
 				ADA7D21F1F6A7AFC00FF22E2 /* AppDelegate.m */,
 				ADA7D2211F6A7AFC00FF22E2 /* ViewController.h */,
@@ -70,15 +70,15 @@
 				ADA7D22C1F6A7AFC00FF22E2 /* Info.plist */,
 				ADA7D22D1F6A7AFC00FF22E2 /* main.m */,
 			);
-			path = SampleImport;
+			path = DocumentPickeriOS11;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADA7D21A1F6A7AFC00FF22E2 /* SampleImport */ = {
+		ADA7D21A1F6A7AFC00FF22E2 /* DocumentPickeriOS11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADA7D2311F6A7AFC00FF22E2 /* Build configuration list for PBXNativeTarget "SampleImport" */;
+			buildConfigurationList = ADA7D2311F6A7AFC00FF22E2 /* Build configuration list for PBXNativeTarget "DocumentPickeriOS11" */;
 			buildPhases = (
 				ADA7D2171F6A7AFC00FF22E2 /* Sources */,
 				ADA7D2181F6A7AFC00FF22E2 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = SampleImport;
+			name = DocumentPickeriOS11;
 			productName = SampleImport;
-			productReference = ADA7D21B1F6A7AFC00FF22E2 /* SampleImport.app */;
+			productReference = ADA7D21B1F6A7AFC00FF22E2 /* DocumentPickeriOS11.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADA7D2161F6A7AFC00FF22E2 /* Build configuration list for PBXProject "SampleImport" */;
+			buildConfigurationList = ADA7D2161F6A7AFC00FF22E2 /* Build configuration list for PBXProject "DocumentPickeriOS11" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADA7D21A1F6A7AFC00FF22E2 /* SampleImport */,
+				ADA7D21A1F6A7AFC00FF22E2 /* DocumentPickeriOS11 */,
 			);
 		};
 /* End PBXProject section */
@@ -285,14 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SampleImport/SampleImport.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DocumentPickeriOS11/DocumentPickeriOS11.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7D5NQS3DMM;
-				INFOPLIST_FILE = SampleImport/Info.plist;
+				INFOPLIST_FILE = DocumentPickeriOS11/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.SampleImport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.DocumentPickeriOS11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "338192d8-a665-4b1a-9e98-c3ca794451d4";
 				PROVISIONING_PROFILE_SPECIFIER = "Useradgents (Development) Wildcard Profile";
@@ -304,14 +304,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SampleImport/SampleImport.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DocumentPickeriOS11/DocumentPickeriOS11.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SampleImport/Info.plist;
+				INFOPLIST_FILE = DocumentPickeriOS11/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.SampleImport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.creativegames.DocumentPickeriOS11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADA7D2161F6A7AFC00FF22E2 /* Build configuration list for PBXProject "SampleImport" */ = {
+		ADA7D2161F6A7AFC00FF22E2 /* Build configuration list for PBXProject "DocumentPickeriOS11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA7D22F1F6A7AFC00FF22E2 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADA7D2311F6A7AFC00FF22E2 /* Build configuration list for PBXNativeTarget "SampleImport" */ = {
+		ADA7D2311F6A7AFC00FF22E2 /* Build configuration list for PBXNativeTarget "DocumentPickeriOS11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA7D2321F6A7AFC00FF22E2 /* Debug */,
