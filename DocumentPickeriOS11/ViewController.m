@@ -15,6 +15,12 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self updateDefaultBarButtonStyle];
+}
+
 #pragma mark - IBAction
 
 - (IBAction)importItemAction:(id)sender {
@@ -22,30 +28,17 @@
     NSArray *documentTypes = @[(NSString*)kUTTypePDF,(NSString*)kUTTypePNG,(NSString*)kUTTypeJPEG];
     UIDocumentPickerViewController *controller = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:documentTypes inMode:UIDocumentPickerModeImport];
     controller.delegate = self;
-    
-    //[self updateiCloudBarButtonStyle];
-    
-    [self presentViewController:controller animated:YES completion:^{
-        
-        // Try to hack internal viewcontroller style
-        if (@available(iOS 11.0, *)) {
-            assert(controller.childViewControllers);
-            UIDocumentBrowserViewController *browserController = (UIDocumentBrowserViewController *)controller.childViewControllers[0];
-            assert(browserController);
-            browserController.browserUserInterfaceStyle = UIDocumentBrowserUserInterfaceStyleDark;
-        }
-    }];
+    [self updateiCloudBarButtonStyle];
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 
 #pragma mark - UIDocumentPickerDelegate
 
 - (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentsAtURLs:(NSArray <NSURL *>*)urls {
-    //[self updateDefaultBarButtonStyle];
 }
 
 - (void)documentPickerWasCancelled:(UIDocumentPickerViewController *)controller {
-    //[self updateDefaultBarButtonStyle];
 }
 
 
